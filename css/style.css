@@ -1,1 +1,259 @@
+body {
+    margin: 0;
+    background-color: burlywood;
+}
 
+h1 {
+    font-family: "Trirong", serif;
+    font-size: medium;
+    color: white;
+
+}
+
+h1.title {
+    font-size: 75px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: medium;
+    text-align: center;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color: white;
+    text-align: center;
+}
+
+h2.TitleDescription {
+    font-size: 50px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+
+nav {
+    background-color:cadetblue; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: right;
+    height: 50px;
+    width: 100%;
+
+}
+
+nav a:hover {
+    color: silver;
+    font-size: medium;
+}
+
+footer {
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    background-color: antiquewhite;
+    font: 200;
+    font-family: "Trirong", serif;
+    font-style: oblique;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    
+}
+
+footer a {
+    color: lightskyblue;
+    font-size: medium;
+}
+
+footer a:hover{
+    color:silver;
+    font-size: medium;
+}
+
+hr {
+    height: 0%;
+    border: 3px solid cadetblue;
+    border-style: solid;
+}
+
+.top {
+    background-color:burlywood;
+    padding: auto;
+    border-width: 0, 5px;
+}
+
+.bottom {
+    background-color: burlywood;
+    padding: auto;
+    border-width: 0, 5px;
+}
+
+.background {
+    height: 200px;
+    max-width:40%;
+    margin-right: auto;
+}
+
+.background2 {
+    height: 200px;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background3 {
+    height: 200px;
+    width: 480px;
+    margin-left: auto;
+}
+
+.forerunner {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    right: 80%;
+    bottom: 550px
+}
+
+.forerunner2 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 80%;
+    bottom: 550px
+}
+
+.selfie {
+    border-radius: 50%;
+    margin-left: 40%;
+    border-color:black;
+    border-style: dotted;
+    height: 300px;
+}
+
+a {
+    color:rgb(240, 193, 76);
+    text-decoration: none;
+}
+
+a:hover {
+    font-family: "Trirong", serif;
+    color:blue; 
+}
+
+.threegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px 50px;
+    gap: 30px;
+}
+
+.item {
+    background-color: cadetblue;
+    border: solid;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 0px;
+    max-width: fit-content;
+}
+
+.item ul {
+    display: grid;
+    font-size: 20px;
+    text-align: center;
+    border: 0; 
+    margin-left: 45%;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.item dl {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    border: 0; 
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.item:hover {
+    box-shadow: rgba(10, 10, 10, 10) 10px 5px 10px;
+}
+
+.item dl:hover {
+    box-shadow: none;
+}
+
+.item ul:hover {
+    box-shadow: none;
+}
+
+.item dd {
+    margin: auto;
+}
+
+.itemcontents {
+    text-align: center;
+    font-size: medium;
+}
+
+.itemimage {
+    width: 425px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.itemheading {
+    text-align: left;
+    font-size: small;
+}
+
+.contacthead {
+    text-align: center;
+}
+
+.contactgrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    width: 50%;
+}
+
+.contactitem {
+    border: 10px;
+}
+
+form {
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    background-color: bisque;
+}
+
+.contactinput {
+    width: 300px;
+    margin: 10px 10px;
+}
+
+.contactcontents {
+    width:300px;
+    height: 400px;
+    margin: 10px 10px;
+}
+
+.submitbutton {
+    margin: 10px 10px;
+    width: 150px;
+}
